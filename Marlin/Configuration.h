@@ -541,7 +541,7 @@
  * Override with M201
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 120, 120, 120, 120 }
+#define DEFAULT_MAX_ACCELERATION      { 100, 100, 100, 100 }
 
 /**
  * Default Acceleration (change/s) change = mm/s
@@ -999,7 +999,7 @@
 #endif
 
 // Homing speeds (mm/m)
-#define HOMING_FEEDRATE_XY (50*60)
+#define HOMING_FEEDRATE_XY (1500)
 #define HOMING_FEEDRATE_Z  (4*60)
 
 //=============================================================================
